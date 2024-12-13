@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "7707c8b1-f290-4d88-b521-dc9395f749f5",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31105459",
+		"_collection_link": "https://warped-firefly-245462.postman.co/workspace/New-Team-Workspace~b95f7409-e149-49bc-bab6-903c1e609106/collection/31105459-7707c8b1-f290-4d88-b521-dc9395f749f5?action=share&source=collection_link&creator=31105459"
+	},
+	"item": [
+		{
+			"name": "Bit-Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"myB92gUhMdC5DUxndq3yAg\",\r\n\r\n    \"imp\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"banner\": {\r\n                \"w\": 320,\r\n                \"h\": 50,\r\n                \"pos\": 1,\r\n                \"api\": [\r\n                    3,\r\n                    5,\r\n                    6,\r\n                    7\r\n                ],\r\n                \"format\": [\r\n                    {\r\n                        \"w\": 776,\r\n                        \"h\": 393\r\n                    },\r\n                    {\r\n                        \"w\": 667,\r\n                        \"h\": 375\r\n                    },\r\n                    {\r\n                        \"w\": 640,\r\n                        \"h\": 360\r\n                    },\r\n                    {\r\n                        \"w\": 592,\r\n                        \"h\": 360\r\n                    },\r\n                    {\r\n                        \"w\": 568,\r\n                        \"h\": 320\r\n                    },\r\n                    {\r\n                        \"w\": 320,\r\n                        \"h\": 480\r\n                    },\r\n                    {\r\n                        \"w\": 750,\r\n                        \"h\": 200\r\n                    },\r\n                    {\r\n                        \"w\": 400,\r\n                        \"h\": 300\r\n                    }\r\n                ]\r\n            },\r\n            \"displaymanager\": \"GOOGLE\",\r\n            \"instl\": 1,\r\n            \"tagid\": \"3167273236690230250\",\r\n            \"bidfloor\": 0.01,\r\n            \"bidfloorcur\": \"USD\",\r\n            \"secure\": 1,\r\n            \"exp\": 3600,\r\n            \"metric\": [\r\n                {\r\n                    \"type\": \"click_through_rate\",\r\n                    \"value\": 0.19889350235462189,\r\n                    \"vendor\": \"EXCHANGE\"\r\n                },\r\n                {\r\n                    \"type\": \"viewability\",\r\n                    \"value\": 0.97999999999999998,\r\n                    \"vendor\": \"EXCHANGE\"\r\n                }\r\n            ],\r\n            \"ext\": {\r\n                \"billing_id\": [\r\n                    \"123456789\",\r\n                    \"152349838468\"\r\n                ],\r\n                \"publisher_settings_list_id\": [\r\n                    \"10210479292634817089\",\r\n                    \"14735124967324597266\"\r\n                ],\r\n                \"allowed_vendor_type\": [\r\n                    785,\r\n                    767,\r\n                    144\r\n                ],\r\n                \"ampad\": 2,\r\n                \"creative_enforcement_settings\": {\r\n                    \"policy_enforcement\": 2,\r\n                    \"scan_enforcement\": 1,\r\n                    \"publisher_blocks_enforcement\": 1\r\n                },\r\n                \"auction_environment\": 0\r\n            }\r\n        }\r\n    ],\r\n    \"app\": {\r\n        \"name\": \"com.ludo.king\",\r\n        \"bundle\": \"com.ludo.king\",\r\n        \"publisher\": {\r\n            \"id\": \"pub-5742233882270312\",\r\n            \"ext\": {\r\n                \"country\": \"GB\"\r\n            }\r\n        },\r\n        \"content\": {\r\n            \"url\": \"https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7\",\r\n            \"userrating\": \"4.3\",\r\n            \"livestream\": 0,\r\n            \"language\": \"en\"\r\n        },\r\n        \"storeurl\": \"https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7\",\r\n        \"ext\": {\r\n            \"inventorypartnerdomain\": \"\"\r\n        }\r\n    },\r\n    \"device\": {\r\n        \"ua\": \"Mozilla/5.0 (Linux; Android 11; M2004J19C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.105 Mobile Safari/537.36 (Mobile; afma-sdk-a-v224417037.224417037.0)\",\r\n        \"ip\": \"103.92.152.0\",\r\n        \"geo\": {\r\n            \"lat\": 23.774545669555664,\r\n            \"lon\": 90.440811157226562,\r\n            \"country\": \"BGD\",\r\n            \"city\": \"Dhaka\",\r\n            \"zip\": \"1212\"\r\n        },\r\n        \"make\": \"xiaomi\",\r\n        \"model\": \"m2004j19c\",\r\n        \"os\": \"android\",\r\n        \"osv\": \"11\",\r\n        \"devicetype\": 4,\r\n        \"ifa\": \"90637fa5-79c8-4a22-97bd-0c8c7e853f16\",\r\n        \"lmt\": 0,\r\n        \"w\": 776,\r\n        \"h\": 393,\r\n        \"pxratio\": 2.75,\r\n        \"ext\": {\r\n            \"user_agent_data\": {\r\n                \"platform\": {\r\n                    \"brand\": \"Android\",\r\n                    \"version\": [\r\n                        \"11\"\r\n                    ]\r\n                },\r\n                \"mobile\": 1,\r\n                \"model\": \"M2004J19C\",\r\n                \"browsers\": [\r\n                    {\r\n                        \"brand\": \"Mozilla\",\r\n                        \"version\": [\r\n                            \"5\",\r\n                            \"0\"\r\n                        ]\r\n                    },\r\n                    {\r\n                        \"brand\": \"AppleWebKit\",\r\n                        \"version\": [\r\n                            \"537\",\r\n                            \"36\"\r\n                        ]\r\n                    },\r\n                    {\r\n                        \"brand\": \"Version\",\r\n                        \"version\": [\r\n                            \"4\",\r\n                            \"0\"\r\n                        ]\r\n                    },\r\n                    {\r\n                        \"brand\": \"Chrome\",\r\n                        \"version\": [\r\n                            \"107\",\r\n                            \"0\",\r\n                            \"5304\",\r\n                            \"105\"\r\n                        ]\r\n                    },\r\n                    {\r\n                        \"brand\": \"Mobile Safari\",\r\n                        \"version\": [\r\n                            \"537\",\r\n                            \"36\"\r\n                        ]\r\n                    }\r\n                ]\r\n            }\r\n        }\r\n    },\r\n    \"user\": {\r\n        \"id\": \"CAESEK7QRNHvCqCtWwFtkJjMQVU\",\r\n        \"ext\": {}\r\n    },\r\n    \"at\": 1,\r\n    \"tmax\": 1000,\r\n    \"cur\": [\r\n        \"USD\"\r\n    ],\r\n    \"bcat\": [\r\n        \"IAB1-2\"\r\n    ],\r\n    \"source\": {\r\n        \"ext\": {\r\n            \"omidpn\": \"Google\",\r\n            \"omidpv\": \"afma-sdk-a-v223712999.222508000.1\",\r\n            \"schain\": {\r\n                \"complete\": 1,\r\n                \"nodes\": [\r\n                    {\r\n                        \"asi\": \"google.com\",\r\n                        \"sid\": \"pub-5742233882270312\",\r\n                        \"hp\": 1\r\n                    }\r\n                ],\r\n                \"ver\": \"1.0\"\r\n            }\r\n        }\r\n    },\r\n    \"ext\": {\r\n        \"google_query_id\": \"AA8e6VI-G-6-PHEjFD9KLYFQqH6v_SGtU6wcSv_E4yC7YgDuY37SAecQnCz_PggyO4x3-KIFQA\",\r\n        \"fcap_scope\": 3,\r\n        \"privacy_treatments\": {\r\n            \"allow_user_data_collection\": 1\r\n        }\r\n    }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/index.php",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	]
+}
